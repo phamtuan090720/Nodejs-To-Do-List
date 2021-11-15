@@ -1,0 +1,26 @@
+Bước 1 : mở terminal gõ npm init
+
++ packet name : tên của project bạn muốn đặt
++ version là phiên bản của project
++ description : là mô tả cho project
++ entry point : là file đầu tiên được đọc chuẩn chung là (index.js)
++ test command :
++ git respository : nơi lưu trữ git của project
++ author : tác giả tạo cái project này
++ license : chính sách mặc định là ISC
+
+- app : là folder lưu tất cả những cái mình code
+Bước 2 : vào file package.json thêm vào scripts 
+    {
+        "start":"node app/index.js"
+    }
+    sau đó chạy project bằng cách npm run start
+Bước 3: tải nodemon phần mềm này giúp refresh server khi có sự thay đổi các file
+Bước 4: vào file package.json thêm vào scripts
+    {
+        "dev":"nodemon app/index.js"
+    }
+    và chạy project bằng cách npm run dev
+
+- devDependencies : chỉ tồn tại trong môi trường dev
+- dependencies : sử dụng được cả 3 môi trường

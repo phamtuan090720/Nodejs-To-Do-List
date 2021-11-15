@@ -1,0 +1,5 @@
+nên sử dụng commonjs để import es5 trong Backend
+Flow web có 3 tiến trình :
+- Dev : dành cho lập trình viên
+- Staging : dành cho tester
+- Production : dành cho người dùng
